@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/websiteXueBob/static/css/main.bdfcddb0.chunk.css",
+    "main.css": "/websiteXueBob/static/css/main.da8c0414.chunk.css",
     "main.js": "/websiteXueBob/static/js/main.49175d30.chunk.js",
     "main.js.map": "/websiteXueBob/static/js/main.49175d30.chunk.js.map",
     "runtime-main.js": "/websiteXueBob/static/js/runtime-main.3de82374.js",
@@ -8,9 +8,9 @@
     "static/js/2.ea68d62a.chunk.js": "/websiteXueBob/static/js/2.ea68d62a.chunk.js",
     "static/js/2.ea68d62a.chunk.js.map": "/websiteXueBob/static/js/2.ea68d62a.chunk.js.map",
     "index.html": "/websiteXueBob/index.html",
-    "precache-manifest.7e4ea886c2f26f36d264a788fef6f4e8.js": "/websiteXueBob/precache-manifest.7e4ea886c2f26f36d264a788fef6f4e8.js",
+    "precache-manifest.36bdb6cf5aa1f417f3c35cb04aed0135.js": "/websiteXueBob/precache-manifest.36bdb6cf5aa1f417f3c35cb04aed0135.js",
     "service-worker.js": "/websiteXueBob/service-worker.js",
-    "static/css/main.bdfcddb0.chunk.css.map": "/websiteXueBob/static/css/main.bdfcddb0.chunk.css.map",
+    "static/css/main.da8c0414.chunk.css.map": "/websiteXueBob/static/css/main.da8c0414.chunk.css.map",
     "static/js/2.ea68d62a.chunk.js.LICENSE": "/websiteXueBob/static/js/2.ea68d62a.chunk.js.LICENSE",
     "static/media/beakers.jpg": "/websiteXueBob/static/media/beakers.d0fa5110.jpg",
     "static/media/HomePage.css": "/websiteXueBob/static/media/woodCover.f3a1874c.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3de82374.js",
     "static/js/2.ea68d62a.chunk.js",
-    "static/css/main.bdfcddb0.chunk.css",
+    "static/css/main.da8c0414.chunk.css",
     "static/js/main.49175d30.chunk.js"
   ]
 }
