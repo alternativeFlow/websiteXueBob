@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/websiteXueBob/static/css/main.bdfcddb0.chunk.css",
+    "main.js": "/websiteXueBob/static/js/main.49175d30.chunk.js",
+    "main.js.map": "/websiteXueBob/static/js/main.49175d30.chunk.js.map",
+    "runtime-main.js": "/websiteXueBob/static/js/runtime-main.3de82374.js",
+    "runtime-main.js.map": "/websiteXueBob/static/js/runtime-main.3de82374.js.map",
+    "static/js/2.ea68d62a.chunk.js": "/websiteXueBob/static/js/2.ea68d62a.chunk.js",
+    "static/js/2.ea68d62a.chunk.js.map": "/websiteXueBob/static/js/2.ea68d62a.chunk.js.map",
+    "index.html": "/websiteXueBob/index.html",
+    "precache-manifest.7e4ea886c2f26f36d264a788fef6f4e8.js": "/websiteXueBob/precache-manifest.7e4ea886c2f26f36d264a788fef6f4e8.js",
+    "service-worker.js": "/websiteXueBob/service-worker.js",
+    "static/css/main.bdfcddb0.chunk.css.map": "/websiteXueBob/static/css/main.bdfcddb0.chunk.css.map",
+    "static/js/2.ea68d62a.chunk.js.LICENSE": "/websiteXueBob/static/js/2.ea68d62a.chunk.js.LICENSE",
+    "static/media/beakers.jpg": "/websiteXueBob/static/media/beakers.d0fa5110.jpg",
+    "static/media/HomePage.css": "/websiteXueBob/static/media/woodCover.f3a1874c.jpg",
+    "static/media/lab-plant.jpg": "/websiteXueBob/static/media/lab-plant.4f0b534b.jpg",
+    "static/media/microscope.jpg": "/websiteXueBob/static/media/microscope.5d30e6b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3de82374.js",
+    "static/js/2.ea68d62a.chunk.js",
+    "static/css/main.bdfcddb0.chunk.css",
+    "static/js/main.49175d30.chunk.js"
+  ]
+}
