@@ -29,19 +29,23 @@ body {
   height: 400vh;
   display: block;
   z-index: 1;
+}
+
+.BackgroundImage {
+  width: 100vw;
+  height: 400vh;
+  position: absolute;
   background-image: url("../assets/green-leaf.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
 }
 
 .Menu {
   width: 100vw;
   height: 60px;
   position: absolute;
-  z-index: 3;
   background-color: white;
   position: fixed;
 }
@@ -50,7 +54,6 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  z-index: 2;
 }
 
 .HomepageContainerTwo {

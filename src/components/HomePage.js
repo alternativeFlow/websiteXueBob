@@ -22,6 +22,10 @@ class HomePage extends React.Component {
 	render() {
 		return(
 			<div className="BackgroundContainer">
+				<div className="BackgroundImage">
+					<div style={{height:"100%", width:"100%", backgroundColor:"black", opacity:"0.5"}}>
+					</div>
+				</div>
 				<Navbar bg="light" expand="lg" fixed="top">
 				  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
 				  <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,6 +48,7 @@ class HomePage extends React.Component {
 				  </Navbar.Collapse>
 				</Navbar>
 				<div className="HomepageContainerOne">
+
 					<div style={{height:"65vh", width:"100vw"}}>
 						<div style={{height:"100%", 
 							width:"100%",
@@ -94,7 +99,6 @@ class HomePage extends React.Component {
 				</div>
 				<div className="HomepageContainerTwo">
 				</div>
-				
 			</div>
 
 		);
