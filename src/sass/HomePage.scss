@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans');
+@import 'utilityClasses';
+
+html {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.BackgroundContainer {
+	width: 100vw;
+	height: 400vh;
+	display: block;
+	z-index: 1;
+
+	background-image: url("../assets/green-leaf.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	opacity: 0.5;
+}
+
+.Menu {
+	width:100vw;
+	height: 60px;
+	position: absolute;
+	z-index: 3;
+
+	background-color: white;
+	position: fixed;
+}
+
+.HomepageContainerOne {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	z-index: 2;
+
+}
+
+.HomepageContainerTwo {
+	width: 100vw;
+	height: 200vh;
+	position: relative;;
+	background-color: orange;
+
+}
+//1/3 of page
+
+.TitlePageContainer {
+	width: 100vw;
+	height: 100vh;
+
+	overflow: hidden;
+
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.TitleText {
+	margin: 0;
+	margin-bottom: 10vh;
+	padding: 0;
+
+	position: relative;
+	color: white;
+	font-size: 20vh;
+	font-family: 'La Belle Aurore', serif;
+
+}
+
+.Video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 0;
+}
+
+// 2/3 of page
+.WorkPageContainer {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+
+	width: 100vw;
+	height: 125vh;
+
+	background: url(../assets/woodCover.jpg) no-repeat center center local;
+	background-size: cover;
+
+	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.WorkTitleText {
+	margin: 0;
+	padding: 0;
+
+	position: relative;
+	bottom: 10vh;
+	
+	color: white;
+	font-size: 20vh;
+	font-family: 'La Belle Aurore', serif;
+}
+
+.CardLevel {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+// 3/3 of page
+.ContactPageContainer {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+
+	width: 100vw;
+	height: 101vh;
+
+	overflow: hidden;
+
+	display: grid;
+	grid:
+		". 			title	." auto
+		". 			card 	." 25vh
+		"contact 	contact contact" 50%
+		/ auto 50vh auto;
+
+	background-color: #ce8f5a;
+
+	z-index: 3;
+}
+
+.ContactTitleText {
+	grid-area: title;
+
+	margin: 0;
+	padding: 0;
+	
+	color: white;
+	font-size: 20vh;
+	font-family: 'La Belle Aurore', serif;
+}
+
+.ContactBox {
+	grid-area: contact;
+
+	background-color: #6287a2;
+
+	z-index: 4;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.ContactItem {
+	width: 12.5vh;
+	height: 12.5vh;
+	border-radius: 50%;
+	background-color: gray;
+	margin-bottom: 2.5vh;
+	margin-left: 2.5vh;
+	margin-right: 2.5vh;
+
+	a {
+		position: relative;
+		top: 16.65%;
+		width: inherit;
+		height: inherit;
+		color: black;
+		opacity: 0.7;
+		font-size: 8.33vh;
+		text-decoration: none;
+		text-align: center;
+	}
+
+}
+
+
+//Mobile/Small Screen Responsiveness Section
+
+@media (max-width: 1325px) {
+	.TitleText {
+		transition: opacity .5s .75s;
+		z-index: 4;
+
+	}
+	.HideTitle {
+		transition: opacity .25s;
+		opacity: 0;
+	}
+}
+
+@media (max-width: 1000px) {
+	.CardLevel {
+		flex-direction: column;
+	}
+}
